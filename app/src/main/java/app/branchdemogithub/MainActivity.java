@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Log.e("hello","hii");
                 Log.e("hello","hii2");
                 Log.e("hello","hii3");
+                Log.d("d", "APrna hello");
 
             }
         });
@@ -69,8 +70,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.btn:
-                Intent i = new Intent(MainActivity.this, SecondActivity.class);
-                startActivity(i);;
+                Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+                startActivity(intent);
                 break;
         }
     }
