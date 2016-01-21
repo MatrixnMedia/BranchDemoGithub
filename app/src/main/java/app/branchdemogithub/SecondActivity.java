@@ -23,7 +23,8 @@ public class SecondActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
-                Log.e("hello","I am in 2nd activity");
+                Log.e("hello", "I am in 2nd activity");
+                Log.e("hello","I am in 2nd activity again");
             }
         });
     }
