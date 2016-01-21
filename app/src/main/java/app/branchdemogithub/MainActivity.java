@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Log.d("d", "Parna line 42");
                 Log.d("d","hello world");
                 Log.d("d", "Rabindra sadan");
+                Log.d("d", "Parna line 42");
 
             }
         });
