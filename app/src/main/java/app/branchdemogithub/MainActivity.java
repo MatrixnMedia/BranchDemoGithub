@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setSupportActionBar(toolbar);
 
         context = this;
-
         btn = (Button)findViewById(R.id.btn);
         btn.setOnClickListener(this);
 
